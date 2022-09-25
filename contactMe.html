@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact me</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <p>Email: myGmail@gmail.com</p>
+  <p>Phone: 0919-123-4567</p>
+  <p>Address: myAddress</p>
+  <fieldset style="width:30%">
+    <form action="mailto:mikhelrhyz@gmail.com" method="post" autocomplete="on" enctype="text/plain">
+      <table>
+        <tbody>
+          <tr>
+            <td> <label for="name">Your Fullname: </label></td>
+            <td><input type="text" name="name" id="name" required></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name="email" id="email" required></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password: </label></td>
+            <td><input type="password" name="password" id="password"></td>
+          </tr>
+          <tr>
+            <td> <label for="birthdate">Birthdate:</label></td>
+            <td><input type="date" name="birthdate" id="birthdate"></td>
+          </tr>
+          <tr>
+            <td> <label for="phone">Phone Number:</label></td>
+            <td><input type="tel" name="phone" id="phone"></td>
+          </tr>
+        </tbody>
+      </table>
+      <fieldset>
+        <legend>Skills</legend>
+        <table cellspacing="10">
+          <tbody>
+            <tr>
+              <td> <label for="HTML">HTML</label></td>
+              <td> <input type="checkbox" name="HTML" id="HTML"></td>
+            </tr>
+            <tr>
+              <td> <label for="CSS">CSS</label></td>
+              <td><input type="checkbox" name="CSS" id="CSS"></td>
+            </tr>
+            <tr>
+              <td><label for="JavaScript">JavaScript</label></td>
+              <td><input type="checkbox" name="JavaScript" id="JavaScript"></td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+      <br>
+      <label for="gender">Gender:</label>
+      <br>
+      <label for="male">male</label>
+      <input type="radio" name="gender" id="male" value="male" checked>
+      <label for="female">female</label>
+      <input type="radio" name="gender" id="female" value="female">
+      <br>
+      <br>
+      <label for="expertise">expertise</label>
+      <br>
+      1<input type="range" name="expertise" id="expertise">10
+      <br>
+      <br>
+      <label for="resume">Upload Resume:</label>
+      <input type="file" name="resume" id="resume">
+      <br>
+      <br>
+      <label for="message">messages:</label>
+      <br>
+      <textarea name="message" rows="8" cols="80" id></textarea>
+      <input type="submit">
+
+    </form>
+  </fieldset>
+
+
+</body>
+
+</html>
